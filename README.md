@@ -1,2 +1,0 @@
-# AldrhymNino
-Portafolio Dev
