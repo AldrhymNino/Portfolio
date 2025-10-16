@@ -11,7 +11,7 @@ export default function ProjectCard({project}){
         <span className='text-xs text-slate-400'>{project.tech}</span>
         <div className='flex gap-3'>
           <a href={project.repo} title='Repo'><FiGithub /></a>
-          <a href={project.demo} title='Demo'><FiExternalLink /></a>
+          {/* <a href={project.demo} title='Demo'><FiExternalLink /></a> */}
         </div>
       </div>
     </motion.article>
