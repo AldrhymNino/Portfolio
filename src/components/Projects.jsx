@@ -1,6 +1,11 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
+// images
+import stackpro from '../assets/stackpro.png'
+import tablero from '../assets/tablero.png'
+import form from '../assets/form.png'
+
 const projects = [
   {
     id:1,
@@ -8,7 +13,7 @@ const projects = [
     desc:'Es una app de productividad: gestionar proyectos, objetivos. De forma dínamica.',
     tech:'React, localStorage',
     repo:'https://github.com/AldrhymNino/StackPro',
-    image: './src/assets/stackpro.png',
+    image: stackpro,
     demo:'https://stack-pro.vercel.app/'
   },{
     id:2,
@@ -16,7 +21,7 @@ const projects = [
     desc:'Panel de control de producción con visualización del progreso por etapas, filtros dinámicos y una interfaz moderna diseñada para monitoreo de proyectos industriales.',
     tech:'React',
     repo:'https://github.com/AldrhymNino/panel',
-    image: './src/assets/tablero.png',
+    image: tablero,
     demo:'https://aldrhymnino.github.io/panel/'
   },
   {
@@ -25,7 +30,7 @@ const projects = [
     desc:'Sistema de formularios escalable construido con React y TypeScript, usando hooks personalizados, componentes reutilizables y validación en tiempo real con una UI moderna.',
     tech:'React',
     repo: 'https://github.com/AldrhymNino/Form',
-    image: './src/assets/form.png',
+    image: form,
     demo:'#'
   }
 ]
