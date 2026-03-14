@@ -29,10 +29,10 @@ export default function Skills() {
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       invert: true, // 👈 este será blanco
     },
-    {
-      name: "Testing (Jest)",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-    },
+    // {
+    //   name: "Testing (Jest)",
+    //   img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+    // },
   ]
 
   return (
