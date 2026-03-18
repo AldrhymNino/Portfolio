@@ -37,8 +37,8 @@ const projects = [
 
 export default function Projects({ zoom }) {
   return (
-    <section id='projects' className='py-16'>
-      <h2 className='text-2xl font-semibold'>Proyectos</h2>
+    <section id='projects' className='py-16' >
+      <h2 className="text-3xl font-bold mb-12 text-center text-primary">Proyectos</h2>
       <div className='mt-6 grid md:grid-cols-2 gap-6'>
         {projects.map(p => <ProjectCard key={p.id} project={p} zoom={zoom} />)}
       </div>

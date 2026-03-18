@@ -13,11 +13,11 @@ export default function About(){
   return (
     <section id='about' className='py-16'>
       <motion.div initial={{opacity:0, x:-30}} whileInView={{opacity:1, x:0}} viewport={{once:true}} transition={{duration:0.6}}>
-        <h2 className='text-2xl font-semibold'>Sobre mí</h2>
+        <h2 className='text-3xl font-bold mb-12 text-primary'>Sobre mí</h2>
         <div className='mt-4 md:flex gap-6 items-center'>
           <img src={avatar} alt='avatar' className='w-36 h-36 rounded-full justify-center object-cover md:block' />
           <div className='text-slate-300'>
-            <p>Soy Aldrhym Niño, tengo {addYears()} años, desarrollador web autodidacta. Empecé a programar desde los 14 años por pura curiosidad, y desde entonces no he dejado de aprender. Me especializo en HTML, CSS, Javascript y React, tecnologías con las que he construido proyectos propios y resuelto retos reales. También he explorado un poco de Python y PHP, aunque solo a nivel básico. Me considero de aprendizaje rápido, y siempre estoy buscando mejorar, experimentar y encontrar soluciones creativas.</p>
+            <p>Soy Aldrhym Niño, tengo {addYears()} años, desarrollador web autodidacta. Empecé a programar desde los 14 años por pura curiosidad, y desde entonces no he dejado de aprender. Me especializo en <span className='text-primary font-bold'>HTML, CSS, JavaScript, TypeScript y React</span>, tecnologías con las que he construido proyectos propios y resuelto retos reales. También he explorado un poco de Python y PHP, aunque solo a nivel básico. Me considero de aprendizaje rápido, y siempre estoy buscando mejorar, experimentar y encontrar soluciones creativas.</p>
           </div>
         </div>
       </motion.div>

@@ -4,7 +4,7 @@ export default function SoftSkills() {
   return (
     <section id="soft-skills" className="py-16 text-white">
       <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12">
+        <h2 className="text-4xl font-bold text-center mb-12 text-primary">
           Soft Skills
         </h2>
 

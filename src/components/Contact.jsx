@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="py-20 text-center"
     >
-      <h2 className="text-4xl font-bold text-slate-100 mb-6">Contacto</h2>
+      <h2 className="text-4xl font-bold text-primary mb-6">Contacto</h2>
       <p className="text-slate-400 max-w-xl mx-auto mb-8">
         Si te interesa mi trabajo o simplemente quieres conversar sobre
         tecnología, puedes escribirme. ¡Estoy abierto a nuevas oportunidades y
